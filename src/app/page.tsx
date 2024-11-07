@@ -1,18 +1,16 @@
 'use client'
 
-import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { projects, experience, skills } from '@/components/data/projects'
-import { GithubIcon, LinkedinIcon, MailIcon, ExternalLinkIcon, DownloadIcon } from 'lucide-react'
+import { LinkedinIcon, MailIcon, ExternalLinkIcon, DownloadIcon } from 'lucide-react'
 import { FacebookIcon, InstagramIcon, TwitterIcon, PhoneIcon } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Component() {
-  const [activeTab, setActiveTab] = useState('projects')
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 xl:px-28">
       {/* Hero Section */}
@@ -23,7 +21,7 @@ export default function Component() {
             animate={{ opacity: 1, x: 0 }}
             className="w-48 h-48 rounded-full overflow-hidden border-4 border-white/10"
           >
-            <img
+            <Image
               src="profile.png"
               alt="Teslim Abdulwahab"
               className="w-full h-full object-cover"
@@ -103,7 +101,7 @@ export default function Component() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {projects.map((project) => (
                 <Card key={project.id} className="overflow-hidden bg-gray-800/50 border-gray-700">
-                  <img
+                  <Image
                     src={project.image}
                     alt={project.title}
                     className="w-full h-48 object-cover"
