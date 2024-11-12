@@ -89,7 +89,7 @@ export const projects = [
   ]
   
   export const skills = {
-    frontend: ["React.js", "Next.js", "Vue.js", "Tailwind CSS", "Bootstrap", "React Native"],
+    frontend: ["HTML", "CSS", "JavaScript", "TypeScript", "React.js", "Next.js", "Vue.js", "Tailwind CSS", "Bootstrap", "React Native"],
     backend: ["Node.js", "Django", "Flask", "Laravel", "Express.js", "NestJS"],
     database: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
     devops: ["Git", "Docker", "AWS", "Azure", "CI/CD"],
