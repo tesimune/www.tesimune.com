@@ -76,21 +76,21 @@ export const projects = [
       id: 4,
       company: "AnalogueShifts",
       position: "Senior Software Engineer",
-      period: "2024 - 2025",
+      period: "2024 - present",
       description: "Led as senior software engineer and lead backend developer."
     },
     {
       id: 5,
       company: "HostShifts",
       position: "Senior Software Engineer",
-      period: "2024 - 2025",
+      period: "2024 - 2024",
       description: "Developed User interface frontend, and RESTful APIs backend services using React/TypeScript and Laravel/PHP"
     },
     {
       id: 6,
       company: "Fastbuka",
       position: "Software Engineer",
-      period: "2021 - 2022",
+      period: "2024 - present",
       description: "Developed RESTful APIs and backend services using NestJS/TypeScript"
     }
   ]
