@@ -28,7 +28,7 @@ export const projects = [
       title: "Fastbuka",
       description: "A multi-vendor food system, with blockchain payment gateway.",
       image: "/fastbuka.jpg?height=400&width=600",
-      tags: ["ReactJS", "TypeScript", "TailwindCSS", "NestJS", "REST API", "Postgress", "Docker", "AWS", "CI/CD"],
+      tags: ["NextJS", "TypeScript", "TailwindCSS", "NestJS", "REST API", "Postgress", "Docker", "AWS", "CI/CD"],
       link: "https://fastbuka.com"
     },
     {
