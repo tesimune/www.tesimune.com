@@ -151,7 +151,7 @@ export default function Component() {
                       <div className="m-5">
                         <h3 className="text-xl font-bold text-white mb-2 uppercase">{project.title}</h3>
                         <p className="text-gray-300 h-10 mb-4">{project.description}</p>
-                        <div className='h-16'>
+                        <div className='h-24'>
                           <div className="flex flex-wrap gap-2 mb-4">
                             {project.tags.map((tag) => (
                               <Badge key={tag} variant="secondary">{tag}</Badge>
