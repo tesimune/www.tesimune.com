@@ -5,7 +5,7 @@ export const projects = [
       description: "A comprehensive platform for remote work and talent management.",
       image: "/anaogueshifts.png?height=400&width=600",
       tags: ["NextJS", "TypeScript", "Tailwind CSS", "NodeJS", "Laravel", "PHP", "MySQL", "REST API"],
-      link: "https://analogueshifts.com"
+      link: "https://www.analogueshifts.com"
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ export const projects = [
       description: "Infrastructure for automotive ride marketplace.",
       image: "/vroom.png?height=400&width=600",
       tags: ["NodeJS", "Laravel", "PHP", "MySQL", "REST API", "AWS"],
-      link: "https://vroomng.com"
+      link: "https://www.vroomng.com"
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ export const projects = [
       description: "Web hosting, platform with cPanel and domain sale.",
       image: "/hostshifts.jpg?height=400&width=600",
       tags: ["ReactJS", "TypeScript", "TailwindCSS", "Laravel", "PHP", "MySQL", "REST API"],
-      link: "https://hostshifts.com"
+      link: "https://www.hostshifts.com"
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ export const projects = [
       description: "A multi-vendor food system, with blockchain payment gateway.",
       image: "/fastbuka.jpg?height=400&width=600",
       tags: ["NextJS", "TypeScript", "TailwindCSS", "NestJS", "REST API", "Postgress", "Docker", "AWS", "CI/CD"],
-      link: "https://fastbuka.com"
+      link: "https://www.fastbuka.com"
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ export const projects = [
       description: "A content management system for writers and bloggers.",
       image: "/penlumen.png?height=400&width=600",
       tags: ["ReactJS", "TailwindCSS", "PHP", "Laravel", "MySQL", "CI/CD"],
-      link: "https://penlumen.com"
+      link: "https://www.penlumen.com"
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ export const projects = [
       description: "An e-commerce multi-vendor market platform.",
       image: "/mimashsignature.png?height=400&width=600",
       tags: ["ReactJS", "TailwindCSS", "PHP", "Laravel", "MySQL", "CI/CD"],
-      link: "https://mimashsignature.com"
+      link: "https://www.mimashsignature.com"
     },
     
   ]
