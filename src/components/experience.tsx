@@ -13,7 +13,7 @@ function Experience({ item, index, isVisible }: ExperienceProps) {
   return (
     <div
       className={`relative flex items-center mb-8 transition-all duration-700 ${
-        isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
+        isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-2'
       }`}
       style={{ transitionDelay: `${index * 0.2}s` }}
     >
