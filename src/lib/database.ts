@@ -45,7 +45,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Fastbuka',
+    title: 'FastBuka',
     description: 'A multi-vendor, with web3 blockchain payment.',
     image: '/images/fastbuka.jpg?height=400&width=600',
     tags: [
@@ -99,7 +99,7 @@ export const experience = [
   // },
   {
     id: 3,
-    company: 'Vroom NG',
+    company: 'VroomNG',
     position: 'Backend Developer',
     period: '2023 - 2024',
     description:
@@ -122,7 +122,7 @@ export const experience = [
   // },
   {
     id: 6,
-    company: 'Fastbuka',
+    company: 'FastBuka',
     position: 'Software Engineer',
     period: '2025 - present',
     description:
