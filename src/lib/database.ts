@@ -85,18 +85,18 @@ export const experience = [
     id: 1,
     company: 'AnalogueShifts',
     position: 'FullStack Developer',
-    period: '2022 - 2024',
+    period: '2022 - 2023',
     description:
       'Led full-stack development initiatives, handling both the frontend and backend.',
   },
-  {
-    id: 2,
-    company: 'Algonet Media',
-    position: 'Frontend Developer',
-    period: '2022 - 2022',
-    description:
-      'Built simple web applications using ReactJS and Tailwind CSS.',
-  },
+  // {
+  //   id: 2,
+  //   company: 'Algonet Media',
+  //   position: 'Frontend Developer',
+  //   period: '2022 - 2022',
+  //   description:
+  //     'Built simple web applications using ReactJS and Tailwind CSS.',
+  // },
   {
     id: 3,
     company: 'Vroom NG',
@@ -108,23 +108,23 @@ export const experience = [
   {
     id: 4,
     company: 'AnalogueShifts',
-    position: 'Senior Software Engineer',
+    position: 'Software Engineer',
     period: '2024 - 2025',
-    description: 'Led as senior software engineer and lead backend developer.',
+    description: 'Lead software and backend engineer.',
   },
-  {
-    id: 5,
-    company: 'HostShifts',
-    position: 'Senior Software Engineer',
-    period: '2024 - 2024',
-    description:
-      'Developed User interface frontend, and RESTful APIs backend services using React/TypeScript and Laravel/PHP',
-  },
+  // {
+  //   id: 5,
+  //   company: 'HostShifts',
+  //   position: 'Senior Software Engineer',
+  //   period: '2024 - 2024',
+  //   description:
+  //     'Developed User interface frontend, and RESTful APIs backend services using React/TypeScript and Laravel/PHP',
+  // },
   {
     id: 6,
     company: 'Fastbuka',
     position: 'Software Engineer',
-    period: '2024 - present',
+    period: '2025 - present',
     description:
       'Developed RESTful APIs and backend services using NestJS/TypeScript',
   },

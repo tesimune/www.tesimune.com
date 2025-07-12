@@ -72,11 +72,14 @@ export default function Portfolio() {
               className='w-full h-full object-cover'
             />
           </motion.div>
-          <h1 className='text-6xl md:text-8xl font-bold bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent mb-4 animate-fade-in'>
+          <h1 className='text-6xl md:text-8xl font-bold bg-gradient-to-r from-white via-purple-200 to-purple-400 bg-clip-text text-transparent animate-fade-in'>
             TESIMUNE
           </h1>
+          <p className='text-xl md:text-2xl text-gray-300 animate-slide-up'>
+            Teslim Abdulwahab
+          </p>
           <p className='text-xl md:text-2xl text-gray-300 mb-8 animate-slide-up'>
-            Full Stack Developer & Software Engineer
+            Software Engineer
           </p>
           <div className='flex gap-4 justify-center'>
             <a
