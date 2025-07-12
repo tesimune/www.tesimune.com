@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import Image from 'next/image';
 import { ExternalLink, Github } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -21,13 +20,9 @@ interface ProjectProps {
 }
 
 export default function Projects({ project, index }: ProjectProps) {
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
     <Card
       className='group relative overflow-hidden bg-gradient-to-br from-gray-900 to-gray-800 border-gray-700 hover:border-purple-500 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2'
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
       style={{
         animationDelay: `${index * 0.1}s`,
       }}

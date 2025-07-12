@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { projects } from '@/lib/database';
 import { useEffect, useRef, useState } from 'react';
-import { Download, Github, Linkedin, Mail, Phone } from 'lucide-react';
+import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import Experience from '@/components/experience';
 import Projects from '@/components/projects';
 import Skills from '@/components/skills';
@@ -139,11 +139,11 @@ export default function Portfolio() {
       >
         <div className='container mx-auto px-4 text-center'>
           <h2 className='text-4xl md:text-5xl font-bold text-white mb-8'>
-            Let's Work Together
+            Let&#39s Work Together
           </h2>
           <p className='text-xl text-gray-400 mb-12 max-w-2xl mx-auto'>
-            I'm always interested in new opportunities and exciting projects.
-            Let's discuss how we can bring your ideas to life.
+            I&#39m always interested in new opportunities and exciting projects.
+            Let&#39s discuss how we can bring your ideas to life.
           </p>
 
           <div className='flex flex-col md:flex-row gap-6 justify-center items-center mb-12'>
