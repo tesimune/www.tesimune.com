@@ -1,0 +1,158 @@
+export const projects = [
+  {
+    id: 1,
+    title: 'AnalogueShifts',
+    description: 'Remote work and talent management.',
+    image: '/images/analogueshifts.png?height=400&width=600',
+    tags: [
+      'NextJS',
+      'TypeScript',
+      'Tailwind CSS',
+      'NodeJS',
+      'Laravel',
+      'PHP',
+      'MySQL',
+      'REST API',
+    ],
+    link: 'https://www.analogueshifts.com',
+    github: 'https://github.com/analogueshifts',
+  },
+  {
+    id: 2,
+    title: 'VroomNG',
+    description: 'Infrastructure for automotive ride marketplace.',
+    image: '/images/vroom.png?height=400&width=600',
+    tags: ['NodeJS', 'Laravel', 'PHP', 'MySQL', 'REST API', 'AWS'],
+    link: 'https://www.vroomng.com',
+    github: 'https://github.com/vroomng',
+  },
+  {
+    id: 3,
+    title: 'HostShifts',
+    description: 'Web hosting, platform with cPanel and domain.',
+    image: '/images/hostshifts.jpg?height=400&width=600',
+    tags: [
+      'ReactJS',
+      'TypeScript',
+      'TailwindCSS',
+      'Laravel',
+      'PHP',
+      'MySQL',
+      'REST API',
+    ],
+    link: 'https://www.hostshifts.com',
+    github: 'https://github.com/tesimune/www.hostshifts.com',
+  },
+  {
+    id: 4,
+    title: 'Fastbuka',
+    description: 'A multi-vendor, with web3 blockchain payment.',
+    image: '/images/fastbuka.jpg?height=400&width=600',
+    tags: [
+      'NextJS',
+      'TypeScript',
+      'TailwindCSS',
+      'NestJS',
+      'REST API',
+      'Postgress',
+      'Docker',
+      'AWS',
+      'CI/CD',
+    ],
+    link: 'https://www.fastbuka.com',
+    github: 'https://github.com/fastbuka',
+  },
+  // {
+  //   id: 5,
+  //   title: 'Penlumen',
+  //   description: 'A content management system for writers and bloggers.',
+  //   image: '/images/penlumen.png?height=400&width=600',
+  //   tags: ['ReactJS', 'TailwindCSS', 'PHP', 'Laravel', 'MySQL', 'CI/CD'],
+  //   link: 'https://www.penlumen.com',
+  // },
+  // {
+  //   id: 6,
+  //   title: 'MimashSignature',
+  //   description: 'An e-commerce multi-vendor market platform.',
+  //   image: '/images/mimashsignature.png?height=400&width=600',
+  //   tags: ['ReactJS', 'TailwindCSS', 'PHP', 'Laravel', 'MySQL', 'CI/CD'],
+  //   link: 'https://mimashsignature.tesimune.com',
+  // },
+];
+
+export const experience = [
+  {
+    id: 1,
+    company: 'AnalogueShifts',
+    position: 'FullStack Developer',
+    period: '2022 - 2024',
+    description:
+      'Led full-stack development initiatives, handling both the frontend and backend.',
+  },
+  {
+    id: 2,
+    company: 'Algonet Media',
+    position: 'Frontend Developer',
+    period: '2022 - 2022',
+    description:
+      'Built simple web applications using ReactJS and Tailwind CSS.',
+  },
+  {
+    id: 3,
+    company: 'Vroom NG',
+    position: 'Backend Developer',
+    period: '2023 - 2024',
+    description:
+      'Developed RESTful APIs and backend services using NodeJS and Laravel.',
+  },
+  {
+    id: 4,
+    company: 'AnalogueShifts',
+    position: 'Senior Software Engineer',
+    period: '2024 - 2025',
+    description: 'Led as senior software engineer and lead backend developer.',
+  },
+  {
+    id: 5,
+    company: 'HostShifts',
+    position: 'Senior Software Engineer',
+    period: '2024 - 2024',
+    description:
+      'Developed User interface frontend, and RESTful APIs backend services using React/TypeScript and Laravel/PHP',
+  },
+  {
+    id: 6,
+    company: 'Fastbuka',
+    position: 'Software Engineer',
+    period: '2024 - present',
+    description:
+      'Developed RESTful APIs and backend services using NestJS/TypeScript',
+  },
+];
+
+export const skills = {
+  frontend: [
+    'JavaScript',
+    'TypeScript',
+    'ReactJS',
+    'React Native',
+    'NextJS',
+    'VueJS',
+    'Tailwind CSS',
+    'ShadCN',
+  ],
+  backend: [
+    'Laravel',
+    'NodeJS',
+    'ExpressJS',
+    'NestJS',
+    'Django',
+    'Flask',
+    'FastAPI',
+    'Spring Boot',
+  ],
+  database: ['MySQL', 'PostgreSQL', 'MariaDB', 'MongoDB', 'Redis', 'Firebase'],
+  devops: ['Git', 'Docker', 'AWS', 'Google Console', 'Azure', 'CI/CD'],
+  languages: ['JavaScript', 'TypeScript', 'Python', 'PHP', 'Java', 'C++'],
+  others: ['Figma', 'Linux', 'Arduino', 'IOT'],
+};
