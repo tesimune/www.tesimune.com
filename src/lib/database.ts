@@ -30,7 +30,7 @@ export const projects = [
     id: 3,
     title: 'HostShifts',
     description: 'Web hosting, platform with cPanel and domain.',
-    image: '/images/hostshifts.jpg?height=400&width=600',
+    image: '/images/hostshifts.png?height=400&width=600',
     tags: [
       'ReactJS',
       'TypeScript',

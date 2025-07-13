@@ -35,7 +35,7 @@ export default function Projects({ project, index }: ProjectProps) {
             src={project.image || '/placeholder.svg'}
             alt={project.title}
             fill
-            className='object-cover transition-transform duration-700 group-hover:scale-110'
+            className='bg-white object-cover transition-transform duration-700 group-hover:scale-110'
           />
           <div className='absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center'>
             <div className='flex gap-4'>
