@@ -68,7 +68,7 @@ export default function Projects({ project, index }: ProjectProps) {
           </p>
 
           <div className='flex flex-wrap gap-2'>
-            {project.tags.slice(0, 4).map((tag, tagIndex) => (
+            {project.tags.slice(0, 6).map((tag, tagIndex) => (
               <span
                 key={tag}
                 className='px-3 py-1 text-xs bg-purple-600/20 text-purple-300 rounded-full border border-purple-600/30 transition-all duration-300 hover:bg-purple-600/30'
@@ -79,9 +79,9 @@ export default function Projects({ project, index }: ProjectProps) {
                 {tag}
               </span>
             ))}
-            {project.tags.length > 4 && (
+            {project.tags.length > 6 && (
               <span className='px-3 py-1 text-xs bg-gray-600/20 text-gray-400 rounded-full border border-gray-600/30'>
-                +{project.tags.length - 4} more
+                +{project.tags.length - 6} more
               </span>
             )}
           </div>
